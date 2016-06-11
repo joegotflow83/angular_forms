@@ -1,8 +1,10 @@
 import {Component} from 'angular2/core';
+import {EmployeeFormComponent} from './employee-form-component'
 
 @Component({
     selector: 'my-app',
-    template: '<h1>Angular 2 Template</h1>'
+    template: '<employee-form></employee-form>',
+    directives: [EmployeeFormComponent]
 })
 
 export class AppComponent {}
